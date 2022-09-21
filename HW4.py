@@ -1,5 +1,5 @@
 def func1(function, *args):
-    print('Function name:', ' '.join(function.__name__.split('_')).title())
+    print('Function name:', (' '.join(function.__name__.split('_'))).capitalize())
     print("Args:", ', '.join(args))
 
 
